@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SmoothScrollbar from 'smooth-scrollbar';
 
+export const ScrollbarContext = React.createContext(null);
+
 export default class Scrollbar extends React.Component {
     static propTypes = {
         damping: PropTypes.number,
@@ -92,7 +94,7 @@ export default class Scrollbar extends React.Component {
 
             onScroll,
             children,
-            ...others,
+            ...others
         } = this.props;
 
         return (

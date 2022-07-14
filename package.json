@@ -37,14 +37,14 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.1",
     "prop-types": "^15.6.0",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "smooth-scrollbar": "^8.1.4",
     "webpack-stream": "^3.1.0"
   },
   "peerDependencies": {
     "prop-types": "*",
-    "smooth-scrollbar": "^8.0.0",
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0",
+    "smooth-scrollbar": "^8.0.0"
   }
 }
